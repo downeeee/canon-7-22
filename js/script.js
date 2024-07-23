@@ -26,4 +26,15 @@ $(function(){
 
         }//if
     })//click
+
+    //MAIN1 photo slick
+
+    $(".photo").slick({
+        autoplay:true, autoplaySpeed:4000 , arrows:false, dots:true
+    })
+
+    //banner 영역
+    $(".banner").slick({
+    dots:true , arrows:false 
+    })
 })//jq end

@@ -128,4 +128,54 @@
             background-image: url(../images/btn_rolling_b_stop.png);
             border: none; position: absolute; text-indent: -9999px; bottom: 6px; left: calc(50% + 90px); cursor: pointer;}
 
+
+#section{width: 1164px; margin: 0 auto; }
 .main_visual .stop.on{background-image: url(../images/btn_rolling_b_play.png);}
+
+.main1{display: flex; justify-content: space-between;margin: 30px 0;}
+
+.photo_wrap{width: 574px; height: 346px; background-color: yellow;}
+
+.photo{}
+
+.photo .slick-slide{position: relative;}
+
+.photo .slick-dots{position: absolute; right: 20px; bottom: 20px;}
+.photo .slick-dots li{display: inline-block;margin-left: 10px;}
+.photo .slick-dots li button{width: 10px; height: 10px;   background-color: #555; text-indent: -9999px;
+        border: none; cursor: pointer;}
+.photo .slick-dots li.slick-active button{background-color: rgb(197, 0, 0);}
+
+.p_title{position: absolute; width: 574px; height: 140px; 
+        background-color: rgba(255, 255, 255, 0.5); left: 0; bottom: 0;}
+.p_title h3{margin: 30px 0 10px 20px; font-size: 13px;}
+.p_title img{float: left;}
+.p_title h2{margin: 0 20px 0 5px; float: left; margin: 10px;}
+.line{width: 20px; height: 2px; background-color: rgb(202, 0, 0); margin: 0 0 15px 15px ;}
+
+
+
+
+
+
+
+.banner_wrap{width: 280px; background-color: rgb(235, 235, 235); position: relative;}
+
+
+.b_title{}
+.b_title h3{margin: 30px 0 15px 20px;}
+.b_title p{margin: 0px 0 0 20px; }
+
+.banner{}
+.banner .slick-slide{}
+.banner .slick-dots{position: absolute; right: 10px; bottom: 0px;}
+.banner .slick-dots li{display: inline-block; margin-left: 10px;}
+.banner .slick-dots li button{width: 10px; height: 10px; border-radius: 50%;  background-color: #555; text-indent: -9999px;
+                                border: none; cursor: pointer;}
+.banner .slick-dots li.slick-active button{background-color: rgb(197, 0, 0);}
+
+.b_play{width: 1px; height: 10px; border: none; 
+        background: transparent url("../images/btn_rolling_s_play.png") no-repeat; text-indent: -9999px;
+        position: absolute; right: 5px; bottom: 15px;}
+
+.viewer_wrap{width: 280px;background-color: rgb(216, 216, 216); position: relative;}
