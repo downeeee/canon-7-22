@@ -39,12 +39,12 @@
 
 .util_myca .my{position: absolute; top: 40px; left: 50%;
                 transform: translateX(-50%);
-                width: 110px; border: 1px solid black;
+                width: 150%; border: 1px solid black;
                 padding: 10px; background-color: white; display: none; z-index: 50;}
 
 .util_myca .my li{padding: 5px 0;}
 
-.util_myca .my li a{font-size: 15px;}
+.util_myca .my li a{font-size: 12px; font-weight: bold;}
 
 .util_regist{margin: 0 10px;}
 .util_regist a{ display: block; background-color: rgb(180, 0, 0);
@@ -179,3 +179,89 @@
         position: absolute; right: 5px; bottom: 15px;}
 
 .viewer_wrap{width: 280px;background-color: rgb(216, 216, 216); position: relative;}
+
+.main2{display: flex; justify-content: space-between;}
+
+.gallery{width: 574px; height: 346px; position: relative;}
+.gallery .g_title{position: absolute; width: 100%; height: 50px; background-color: rgba(255, 255, 255, 0.5);
+                left: 0; bottom: 0; display: flex; align-items: center;} 
+.gallery .g_title h3{padding: 0 10px 0 20px; background: url(../images/bg_gallery_tit.png) no-repeat right center;}
+.gallery .g_title h4{padding: 0 10px ;background: url(../images/bg_gallery_line.png) no-repeat right center;}
+.gallery .g_title p{padding-left: 10px; color: rgb(192, 0, 0);font-weight: bold;}
+
+.e_store{width: 574px; height: 346px;background-color: #e7e7e7;}
+
+.e_store h2{padding: 30px 0 20px 20px; }
+.e_store h2 span{display: inline-block;width: 10px; height: 24px;text-indent: -9999px;
+        background: url(../images/gnb_e_nor_hov.png) no-repeat bottom; }
+
+
+
+.store{text-align: center;  width: 500px; margin: 0 auto;}
+.store .slick-slide{}
+.store .slick-dots{text-align: center;}
+.store .slick-dots li{display: inline-block; margin: 0 10px;}
+.store .slick-dots li button{width: 10px; height: 10px; border-radius: 50%; background-color: #555; border: none; text-indent: -9999px;
+                                cursor: pointer;}
+.store .slick-dots li.slick-active button{background-color: rgb(177, 0, 0);}
+
+.store h3{margin-top: 15px;}
+.store p{font-size: 13px; margin-top: 3px;}
+.store p.price{font-size: 16px; font-weight: bold; color: rgb(204, 0, 0);}
+
+.main3{margin: 50px 0;}
+.m_list{ display: flex; justify-content: space-between;}
+
+.m_list li{width: 280px; text-align: center;}
+
+.main3 h4{padding: 10px 0;}
+.main3 p{width: 80%; margin: 0 auto; line-height: 1.5; font-size: 12px;}
+
+
+
+.main4{position: relative;}
+
+.notice{border-top: 1px solid gray; border-bottom: 1px solid gray;}
+
+.notice .slick-slide{height: 60px;line-height: 60px;}
+.notice .slick-arrow{position: absolute; right: 0;cursor: pointer; width: 11px; height: 10px; border: none;
+                        text-indent: -9999px;}
+.notice .slick-arrow.slick-prev{background: url(../images/btn_rolling_s_top.png) no-repeat; top: 10px;}
+.notice .slick-arrow.slick-next{background: url(../images/btn_rolling_s_down.png) no-repeat; bottom: 10px;}
+.notice li a{}
+
+.notice h4{float: left; font-size: 14px; margin-right: 20px;}
+.notice h4 span{color: rgb(192, 0, 0);}
+.notice a p{float: left; width: 50%; font-size: 12px; text-wrap: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.notice .data{float: right; margin-right: 30px; font-size: 12px;}
+
+.main4 .n_stop{ display: block; width: 10px; height: 10px; border: none;
+                z-index: 100;position: absolute; right: 0; top: 50%;
+                background: transparent url(../images/btn_rolling_s_stop.png) no-repeat;
+                text-indent: -9999px; transform: translateY(-50%);}
+
+.main4 .n_stop.on{background: transparent url(../images/btn_rolling_s_play.png);}
+
+
+/* main5영역 */
+.main5{margin: 50px 0;}
+
+.link{display: flex; justify-content: space-between;}
+
+.link li{width: 280px; height: 70px;}
+
+.link_1{background:  url(../images/link2_bg01.png) no-repeat center left;}
+.link_2{background:  url(../images/link2_bg02.png) no-repeat center left;}
+.link_3{background:  url(../images/link2_bg03.png) no-repeat center left;}
+.link_4{background:  url(../images/link2_bg04.png) no-repeat center left;}
+
+.link a{display: block; padding-left: 80px;}
+.link a h4{padding: 5px 0 7px;font-size: 15px;}
+.link a p{font-size: 12px; line-height: 1.5;}
+
+
+
+
+
+
+

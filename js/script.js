@@ -1,6 +1,6 @@
 $(function(){
     $(".util_myca").hover(function(){
-        $(".my").css({display: "flex"})
+        $(".my").stop().slideDown()
     } , function(){
         $(".my").stop().slideUp()
     })
@@ -36,5 +36,25 @@ $(function(){
     //banner 영역
     $(".banner").slick({
     dots:true , arrows:false 
+    })
+
+    $(".store").slick({
+        slidesToShow:2,arrows:false , dots:true, autoplay:true ,slidesToScroll:2
+    })
+
+    $(".notice").slick({
+        autoplay:true, vertical:true,
+    })
+
+
+    $(".main4 .n_stop").click(function(){
+        if($(".main4 .n_stop").hasClass("on") == true){
+                $(this).removeClass("on")
+                $(".notice").slick("slickPlay")
+
+        }else{
+            $(this).addClass("on")
+            $(".notice").slick("slickPause");
+        }
     })
 })//jq end
